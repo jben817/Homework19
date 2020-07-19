@@ -1,16 +1,17 @@
 import React from "react";
+import './employeeTable.css';
 
 function EmployeeList(props) {
   return (
-    <div className="list-group">
+    <table className="list-group">
       {props.employees.map(data => (
         <td className="list-group-item" key={data.id}>
-         <tr>{data.name}</tr>
-         <tr>{data.occupation}</tr>
-         <tr> {data.location}</tr>
+         <tr>Name: {data.name}</tr>
+         <tr> Occupation: {data.occupation}</tr>
+         <tr> Location: {data.location}</tr>
         </td>
       ))}
-    </div>
+    </table>
   );
 }
 
