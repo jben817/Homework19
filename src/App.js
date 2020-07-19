@@ -11,26 +11,26 @@ const employees = [
   {
     "id": 2,
     "name": "Leslie Knope",
-    "occupation": "Parks department",
+    "occupation": "Parks Department",
     "location": "Pawnee"
   },
   {
     "id": 3,
     "name": "Frank Castle",
     "occupation": "Punisher",
-    "location": "Where ever he wants to be"
+    "location": "Wherever he wants to be"
   },
   {
     "id": 4,
     "name": "Hannibal Lecter",
-    "occupation": "Doctor =/",
+    "occupation": "Doctor/Cannibal =/",
     "location": "unknown"
   },
   {
     "id": 5,
     "name": "Burton Guster",
     "occupation": "Detective?",
-    "location": "Sanata Barbara"
+    "location": "Santa Barbara"
   }
 ]
 
