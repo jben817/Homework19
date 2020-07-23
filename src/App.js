@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import EmployeeList from "./components/EmployeeTable";
 
 const employees = [
@@ -36,7 +36,22 @@ const employees = [
 
 
 function App() {
-  return <EmployeeList employees={employees} />;
-}
+
+  const [search, setSearch] = useState("");
+  const [theEmployees, setTheEmployees] = useState (employees);
+
+  return (
+    <div>
+      <EmployeeList employees={employees} search={search} />
+      <form>
+        <input
+          value={search}
+          onChange={(event) => setSearch(event.target.vaule)}
+        />
+      </form>
+    </div>
+  )
+};
+
 
 export default App;
