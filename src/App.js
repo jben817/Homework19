@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import EmployeeList from "./components/EmployeeTable";
+import EmployeeList from "./components/EmployeeList";
 
 const employees = [
   {
@@ -38,7 +38,6 @@ const employees = [
 function App() {
 
   const [search, setSearch] = useState("");
-  const [theEmployees, setTheEmployees] = useState (employees);
 
   return (
     <div>

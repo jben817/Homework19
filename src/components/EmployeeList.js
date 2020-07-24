@@ -10,7 +10,7 @@ function EmployeeList(props) {
     <div className="list-container">
       <h1>Employees</h1>
     <table className="list-group">
-      {filterArr.map(data => (
+      {filterArr.map((data) => (
         
         <tr className="list-group-item" key={data.id}>
          <td><strong>Name:</strong> {data.name}</td>
