@@ -45,7 +45,7 @@ function App() {
       <form>
         <input
           value={search}
-          onChange={(event) => setSearch(event.target.vaule)}
+          onChange={(event) => setSearch(event.target.value)}
         />
       </form>
     </div>
