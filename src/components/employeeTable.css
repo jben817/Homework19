@@ -1,0 +1,18 @@
+.list-container {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.list-group {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 25px;
+  
+}
+.list-group-item {
+    background-color: gray;
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
